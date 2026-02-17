@@ -111,11 +111,11 @@ Sample Bucket Policy:
 🧪 Validation & Testing
 Wait for the CloudFront distribution status to change from Deploying to Enabled.
 
-Copy the Distribution Domain Name (e.g., d12345abcdef.cloudfront.net).
+Copy the Distribution Domain Name.
 
 Paste the URL into a browser.
 
-Verify Security: Try accessing the S3 bucket URL directly. You should receive an AccessDenied (403) error, confirming that users cannot bypass the CDN.
+you should see the static website.
 
 🔮 Future Improvements
 Custom Domain: Configure a custom domain (e.g., www.example.com) using Route 53.
